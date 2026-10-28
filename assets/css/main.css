@@ -232,15 +232,9 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  /* 1. A tua imagem mobile */
+  /* Manténs apenas a imagem de fundo no CSS */
   #bg {
     background: url("images/bg-mobile.jpg") center center / cover no-repeat !important;
-  }
-
-  /* 2. Forçar a subida de todo o bloco (texto + botões) */
-  #header {
-    transform: translateY(-25vh) !important; /* Puxa para cima 25% da altura do ecrã */
-    margin-top: 0 !important;
   }
 }
 
