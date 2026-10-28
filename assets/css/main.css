@@ -241,7 +241,7 @@ body {
   /* 2. Sobe todo o bloco do texto e botões para o céu azul */
   #header {
     position: relative !important;
-    top: -170px !important; /* "Empurra" o texto 80px para cima */
+    top: -200px !important; /* "Empurra" o texto 80px para cima */
   }
 }
 
