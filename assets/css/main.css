@@ -231,6 +231,13 @@ body {
     z-index: -1 !important;
 }
 
+/* Troca a imagem para a versão vertical em ecrãs de telemóvel */
+@media screen and (max-width: 768px) {
+  #bg {
+    background-image: url("images/bg-mobile.jpg") !important;
+  }
+}
+
 #bg:before, #bg:after {
     display: none !important;
 }
