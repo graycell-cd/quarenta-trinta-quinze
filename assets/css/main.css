@@ -233,8 +233,15 @@ body {
 
 /* Troca a imagem para a versão vertical em ecrãs de telemóvel */
 @media screen and (max-width: 768px) {
+  /* 1. Troca a imagem para a versão vertical (já tens) */
   #bg {
-    background-image: url("images/bg-mobile.jpg") !important;
+    background: url("images/bg-mobile.jpg") center center / cover no-repeat !important;
+  }
+
+  /* 2. Sobe todo o bloco do texto e botões para o céu azul */
+  #header {
+    position: relative !important;
+    top: -80px !important; /* "Empurra" o texto 80px para cima */
   }
 }
 
