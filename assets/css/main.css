@@ -231,17 +231,16 @@ body {
     z-index: -1 !important;
 }
 
-/* Troca a imagem para a versão vertical em ecrãs de telemóvel */
 @media screen and (max-width: 768px) {
-  /* 1. Troca a imagem para a versão vertical (já tens) */
+  /* 1. A tua imagem mobile */
   #bg {
     background: url("images/bg-mobile.jpg") center center / cover no-repeat !important;
   }
 
-  /* 2. Sobe todo o bloco do texto e botões para o céu azul */
+  /* 2. Forçar a subida de todo o bloco (texto + botões) */
   #header {
-    position: relative !important;
-    top: -200px !important; /* "Empurra" o texto 80px para cima */
+    transform: translateY(-25vh) !important; /* Puxa para cima 25% da altura do ecrã */
+    margin-top: 0 !important;
   }
 }
 
